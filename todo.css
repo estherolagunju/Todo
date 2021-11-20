@@ -1,0 +1,35 @@
+body{
+    background: #5c074b;
+}
+
+.container{
+    max-width: 400px;
+}
+
+.search{
+    background: rgba(52, 8, 43, 0.989); 
+    border-radius: 10px;
+}
+input[type=text],
+input[type=text]:focus{
+    color: #fff;
+    border:none;
+    background: rgba(52, 8, 43, 0.989); 
+    max-width: 400px;
+}
+
+.todos li{
+    background: #b74fa2;
+}
+
+.plus{
+   
+    border-radius: 10px;
+}
+.delete{
+    cursor: pointer;
+}
+
+/* #352f5b
+rgba(0,0,0,0.2);
+#423a6f; */
